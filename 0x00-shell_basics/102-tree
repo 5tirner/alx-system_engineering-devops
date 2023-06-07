@@ -1,2 +1,2 @@
-#1/bin/bash
+#!/bin/bash
  mkdir welcome & mkdir welcome/to & mkdir weclome/to/school
