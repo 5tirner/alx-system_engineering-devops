@@ -1,0 +1,2 @@
+#!/bin/bash
+awk 'NR==FNR{a[$0]++;next}a[$0]==1' <(printf "%s\n" "$@")
